@@ -27,3 +27,45 @@
     left: 850px;
     top: 500px;
 }
+
+.transfer{
+    height: 470px;
+    width: 570px;
+    position: absolute;
+    left:100px;
+    top: 120px;
+}
+
+
+.form-floating{
+    position: absolute;
+    left:800px;
+    top: 250px;
+    width: 450px;
+}
+
+.two{
+    position: absolute;
+    left:800px;
+    top: 320px;
+}
+
+.three{
+    position: absolute;
+    left:800px;
+    top: 390px;
+    width: 450px; 
+}
+
+.post{
+    position: absolute;
+    left:800px;
+    top: 460px;
+    width: 450px; 
+}
+
+.fw-normal{
+    position: absolute;
+    left:800px;
+    top: 200px;
+}

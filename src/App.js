@@ -1,12 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Transfer from './components/Transfer';
 
 function App() {
   return (
     <div>
     <Navbar />
-    <Home />
+    {/* <Home /> */}
+    <Transfer />
     </div>
   );
 }
