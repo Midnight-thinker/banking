@@ -1,6 +1,6 @@
 import React from 'react';
 import bg from '../images/bg.jpg';
-
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -8,13 +8,12 @@ function Home() {
     <img  className='bg' src={bg}></img>
       <h1 className='heading'>Get your loan anytime you need !</h1>
       <p className='paragraph'>Find the best monthly payment.Apply for business loans in minutes without any kind of hesitations.</p>
-      {/* <form action='/transfer' method='post'> */}
+      <Link to={'/transfer'}>
       <button type="button"  class="btn btn-outline-light llight">Get Started</button>
-      {/* </form> */}
-      
+      </Link>
     </div>
   )
 }
 
 export default Home
-//onChange={this.form.submit()}
+//

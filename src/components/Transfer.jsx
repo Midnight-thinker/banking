@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../images/transfer.jpg'
+import { Link } from 'react-router-dom'
 
 function Transfer() {
   return (
@@ -20,7 +21,9 @@ function Transfer() {
         <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
         <label for="floatingPassword">Note</label>
         </div>
+        <Link to={'/history'}>
         <button class="btn btn-lg btn-primary post" type="submit">Send</button>
+        </Link>
     </form>
     </div>
   )
