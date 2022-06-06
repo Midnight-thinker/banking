@@ -22,6 +22,9 @@ function Navbar() {
         <li class="nav-item">
           <Link class="nav-link active mx-2" to="/history">History</Link>
         </li>
+        <li class="nav-item">
+          <Link class="nav-link active mx-2" to="/account">Account</Link>
+        </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

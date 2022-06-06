@@ -116,3 +116,23 @@ td{
 i{
     padding: 0px 5px;
 }
+
+.card{
+    position: absolute;
+    top: 160px;
+    left: 900px;
+}
+
+.card-img-top{
+    width: 340px;
+    height: 350px;
+}
+
+.cardbg{
+    height: 600px;
+    width: 850px;
+}
+
+span{
+    font-weight: bold;
+}
