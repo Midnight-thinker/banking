@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer'>
-      <p className='text'>© Copyright Loans.Made with love by Debasmita Chakraborty</p>
+      <p className='text'>© Copyright Loans.Made by Debasmita Chakraborty</p>
       <a href='https://github.com/Midnight-thinker'><i class="footer-icons fa-brands fa-github"></i></a>
       <a href='https://www.instagram.com/__midnight__thinker__/'><i class="footer-icons fa-brands fa-instagram"></i></a>
       <a href='https://www.linkedin.com/in/debasmita-chakraborty-ba9773210/'><i class="footer-icons fa-brands fa-linkedin"></i></a>
