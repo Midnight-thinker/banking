@@ -5,6 +5,7 @@ import Transfer from './components/Transfer';
 import History from './components/History';
 import Footer from './components/Footer';
 import Account from './components/Account';
+
 import {
   BrowserRouter,
   Routes,
@@ -20,6 +21,7 @@ function App() {
     <Routes>
     <Route exact path="/home" element={ <Home /> } />
     <Route exact path="/transfer" element={ <Transfer /> } />
+    
     <Route exact path="/history" element={ <History /> } />
     <Route exact path="/account" element={ <Account /> } />
     </Routes>

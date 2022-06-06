@@ -16,7 +16,7 @@ function Navbar() {
           <Link class="nav-link active mx-2" aria-current="page" to="/home">Home</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link active mx-2" to="/transfer">Transfer
+          <Link class="nav-link active mx-2" to="/transfer">Transaction
           </Link>
         </li>
         <li class="nav-item">
