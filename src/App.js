@@ -11,21 +11,25 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import About from './components/About';
 
 function App() {
   return (
     <>
+    
     <BrowserRouter>
-    <div>
+    
     <Navbar />
+   
     <Routes>
     <Route exact path="/home" element={ <Home /> } />
     <Route exact path="/transfer" element={ <Transfer /> } />
     
     <Route exact path="/history" element={ <History /> } />
     <Route exact path="/account" element={ <Account /> } />
+    <Route exact path="/about" element={ <About /> } />
     </Routes>
-    </div>
+    
     <Footer />
     </BrowserRouter>
     </>

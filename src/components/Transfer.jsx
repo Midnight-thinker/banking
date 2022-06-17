@@ -28,7 +28,8 @@ function Transfer() {
         <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
         <label for="floatingPassword">Note</label>
         </div> 
-        <button onClick={() => {
+        <button onClick={(event) => {
+          event.preventDefault();
           setModalOpen(true);
         }}  class="openModalBtn btn btn-lg btn-primary post" type="submit">Send</button>
         
