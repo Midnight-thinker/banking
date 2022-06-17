@@ -1,6 +1,6 @@
 
 .bg{
-    height: 713px;
+    height: 1013px;
     width: 1530px;   
     opacity: 0.5; 
 }
@@ -85,7 +85,7 @@
 
 .lists{
     position: absolute;
-    top: 200px;
+    top: 650px;
     left: 500px;
     background-color: darkgray;
     border-radius: 10px;
@@ -111,8 +111,8 @@ td{
     height: 110px;
     color: white;
     position: absolute;
-    top: 723px;
-    width:1520px;
+    top: 1023px;
+    width:1540px;
 
 }
 
@@ -128,7 +128,7 @@ i{
 
 .card{
     position: absolute;
-    top: 160px;
+    top: 200px;
     left: 900px;
 }
 
@@ -140,6 +140,8 @@ i{
 .cardbg{
     height: 600px;
     width: 850px;
+    position: absolute;
+    top:180px;
 }
 
 span{
@@ -227,4 +229,16 @@ span{
     position: absolute;
     left: 650px;
     top: 300px;
+  }
+
+  .about-2{
+    position: absolute;
+    left: 650px;
+    top: 500px;
+  }
+
+  .aboutimg{
+    position: absolute;
+    left: 50px;
+    top: 250px;
   }

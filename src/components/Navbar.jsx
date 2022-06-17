@@ -19,9 +19,7 @@ function Navbar() {
           <Link class="nav-link active mx-2" to="/transfer">Transaction
           </Link>
         </li>
-        <li class="nav-item">
-          <Link class="nav-link active mx-2" to="/history">History</Link>
-        </li>
+        
         <li class="nav-item">
           <Link class="nav-link active mx-2" to="/account">Account</Link>
         </li>
