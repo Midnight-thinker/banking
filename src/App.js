@@ -23,7 +23,6 @@ function App() {
     <BrowserRouter>
     
     <Navbar />
-   
     <Routes>
     <Route exact path="/home" element={ <Home /> } />
     <Route exact path="/transfer" element={ <Transfer/> } />

@@ -437,6 +437,7 @@ span{
   @media(max-width: 362px){
     .bg{
         width: 362px;
+        height: 1023px;
     }
     .footer{
         width: 362px;
