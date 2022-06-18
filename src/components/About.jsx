@@ -5,7 +5,7 @@ function About() {
   return (
     <>
     <div>
-    <img src={account} alt="img" className='aboutimg'  style={{width : "550px" , height: "550px" }} />
+    <img src={account} alt="img" className='aboutimg'  style={{width : "650px" , height: "650px" }} />
     </div>
     <div class="card about" style={{width : "550px"}}>
     <div class="card-body">
