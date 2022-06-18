@@ -298,50 +298,57 @@ span{
         position: absolute;
         left: 730px;
     }
+    .transfer{
+        position: absolute;
+        left: 20px;
+       top: 300px;
+    }
     .form-floating{
         position: absolute;
         left:100px;
-        top: 750px;
+        top: 880px;
         width: 450px;
     }
     .two{
         position: absolute;
         left:100px;
-        top: 680px;
+        top: 810px;
     }
     
     .three{
         position: absolute;
         left:100px;
-        top: 820px;
+        top: 950px;
         width: 450px; 
     }
     .fw-normal{
         position: absolute;
-        top: 630px;
+        top: 760px;
         left: 100px;
     }
     .post{
         position: absolute;
         left:100px;
-        top: 910px;
+        top: 1040px;
         width: 450px; 
     }
     
     .post2{
         position: absolute;
         left:100px;
-        top: 960px;
+        top: 1090px;
         width: 450px; 
     }
     .lists{
         position: absolute;
-    top: 1050px;
+    top: 1180px;
     left: 100px;
     }
     .cardbg{
         width: 550px;
         height: 400px;
+        position: absolute;
+        top: 300px;
     }
 
     .card{
@@ -349,15 +356,20 @@ span{
         top: 750px;
         left: 100px;
     }
+    .aboutimg{
+        position: absolute;
+        left: 100px;
+        top: 290px;   
+    }
     .about{
         position: absolute;
         left: 100px;
-        top: 800px;
+        top: 930px;
     }
     .about-2{
         position: absolute;
         left: 100px;
-        top: 1000px;
+        top: 1130px;
 
     }
   }
@@ -445,17 +457,17 @@ span{
     .heading{
         position: absolute;
         left: 0px;
-        top: 200px;
+        top: 400px;
     }
     .paragraph{
         position: absolute;
         left: 0px;
-        top: 280px;
+        top: 480px;
     }
     .llight{
         position: absolute;
         left: 10px;
-        top: 340px;
+        top: 560px;
     }
     .form-floating{
         width: 250px;
@@ -469,7 +481,7 @@ span{
     }
     .fw-normal{
         position: absolute;
-        top: 630px;
+        top: 730px;
         left: 100px;
     }
     .post{
@@ -488,7 +500,7 @@ span{
         width: 300px;
         position: absolute;
         left: 20px;
-       
+       top: 300px;
     }
     .cardbg{
         width: 350px;
